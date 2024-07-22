@@ -1,4 +1,4 @@
-# Automated Data Pipeline for Stock Market and Customer Data Analysis Using AWS Services
+# Automated Stock Market and Customer Data Pipeline with AWS
 
 ## Overview
 
