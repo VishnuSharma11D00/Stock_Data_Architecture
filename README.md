@@ -2,8 +2,11 @@
 
 ## Overview
 
-This project demonstrates an automated data pipeline for ingesting, processing, and analyzing stock market data and customer data using AWS services. The key AWS services used include AWS Lambda, Glue, RDS, Athena, and QuickSight. The architecture ensures efficient handling and analysis of large datasets in the cloud.
+1. AWS Lambda & S3 Integration: Developed and deployed AWS Lambda functions with custom layers to automate the ingestion of real-time stock market data into S3, enabling seamless data collection and storage.
 
+2. AWS Glue & RDS ETL Process: Structured customer data by creating an ETL pipeline using AWS Glue, including Glue Crawlers and ETL jobs, to transform and load data into Amazon RDS for efficient querying and analysis.
+
+3. Athena & QuickSight Analytics: Leveraged AWS Athena to query large datasets directly from S3 and built interactive dashboards in QuickSight for real-time stock market analysis and customer data visualization, enhancing data-driven decision-making.
 
 ## Architecture Diagram
 
